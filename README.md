@@ -4,7 +4,7 @@ Reach out if you have questions, concerns, internship opportunities to offer me 
 I will keep updating features of this website!\
 
 ## Sources
-Tutorial: https://www.youtube.com/watch?v=_xkSvufmjEs\
+Tutorial: https://www.youtube.com/watch?v=_xkSvufmjEs \
 Fonts: Google Fonts\
 Icons: I draw that, yes! Within five minutes!\
 Social Icons: Fontawesome
