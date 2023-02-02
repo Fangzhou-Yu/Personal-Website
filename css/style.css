@@ -141,6 +141,8 @@ header {
 .logo {
     max-width: 150px;
     max-height: 60px;
+    transform: rotate(90deg);
+    margin-left: 3em;
 }
 
 .nav{ 
@@ -248,6 +250,7 @@ header {
 .intro__img{
     position: relative;
     box-shadow: var(--bs);
+    border: 2px grey;
 }
 
 .section__subtitle--intro {
@@ -418,25 +421,35 @@ header {
 
 /* My Work Section */
 .my-stories {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
+    background-color: #999999;
+    color: #FFFFFF;
     text-align: center;
 }
 
+.section__title--stories{
+    z-index: 100;
+}
 
 .life {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    z-index: 100;
+    box-shadow: var(--bs);
 }
 
 .life__img {
+    margin-top: 2em;
+    z-index: 1;
+    position: relative;
     display: grid;
-    background: var(--clr-light);
+    background: inherit;
     overflow: hidden;
-    transition: 
-        transform 500ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: rotate(90deg);
+    border: 2px solid grey;
 }
 
 .life p {
