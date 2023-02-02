@@ -139,9 +139,8 @@ header {
 }
 /* Navigation part */
 .logo {
-    max-width: 200px;
+    max-width: 400px;
     max-height: 60px;
-    transform: rotate(90deg);
     margin-left: 3em;
 }
 
